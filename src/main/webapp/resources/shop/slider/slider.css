@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+.nivoSlider {
+	position: relative;
+	background: url(loading.gif) 50% 50% #ffffff no-repeat;
+}
+
+.nivoSlider img {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.nivoSlider .nivo-main-image {
+	width: 100% !important;
+	display: block !important;
+	position: relative !important;
+}
+
+.nivoSlider a.nivo-imageLink {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	filter: alpha(opacity = 0);
+	opacity: 0;
+	background-color: #ffffff;
+}
+
+.nivoSlider .nivo-slice {
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+.nivoSlider .nivo-box {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.nivoSlider .nivo-box img {
+	display: block;
+}
+
+.nivoSlider .nivo-caption {
+	width: 100%;
+	line-height: 26px;
+	display: none;
+	padding: 0px 8px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 10;
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	overflow: hidden;
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr = #30000000, endcolorstr = #30000000) !important;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.nivoSlider .nivo-directionNav a {
+	width: 40px;
+	height: 100px;
+	display: block;
+	margin-top: -50px;
+	position: absolute;
+	top: 50%;
+	z-index: 3;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+	filter: alpha(opacity = 0);
+	opacity: 0;
+	cursor: pointer;
+	text-indent: -9999px;
+	background: url(arrows.gif) 0px 0px no-repeat;
+}
+
+.nivoSlider:hover .nivo-directionNav a {
+	filter: alpha(opacity = 25);
+	opacity: 0.25;
+}
+
+.nivoSlider .nivo-directionNav a:hover {
+	filter: alpha(opacity = 50);
+	opacity: 0.5;
+}
+
+.nivoSlider a.nivo-prevNav {
+	left: 0px;
+}
+
+.nivoSlider a.nivo-nextNav {
+	right: 0px;
+	background-position: -60px 0px;
+}
+
+.nivo-controlNav {
+	*display: none;
+	float: right;
+	margin-top: -28px;
+	margin-right: 6px;
+	position: relative;
+	z-index: 10;
+}
+
+.nivo-controlNav a {
+	width: 20px;
+	height: 10px;
+	display: block;
+	float: left;
+	margin: 0px 2px;
+	filter: alpha(opacity = 60);
+	opacity: 0.6;
+	overflow: hidden;
+	cursor: pointer;
+	text-indent: -9999px;
+	background-color: #000000;
+}
+
+.nivo-controlNav a.active {
+	background-color: #ffffff;
+}

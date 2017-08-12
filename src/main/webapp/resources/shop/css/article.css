@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+/*
+ * Copyright 2005-2017 shopxx.net. All rights reserved.
+ * Support: http://www.shopxx.net
+ * License: http://www.shopxx.net/license
+ * 
+ * Style - Article
+ * Version: 5.0
+ */
+
+/* ---------- HotArticleCategory ---------- */
+
+.hotArticleCategory {
+	margin-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 8px #dddddd;
+	-moz-box-shadow: 2px 2px 8px #dddddd;
+	box-shadow: 2px 2px 8px #dddddd;
+	overflow: hidden;
+	_zoom: 1;
+	border: 1px solid #cccccc;
+}
+
+.hotArticleCategory dl {
+	margin-bottom: -1px;
+}
+
+.hotArticleCategory dt {
+	height: 36px;
+	line-height: 36px;
+	padding-left: 10px;
+	color: #ff7300;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+	background-color: #fff2e2;
+}
+
+.hotArticleCategory dd {
+	height: 32px;
+	line-height: 32px;
+	margin: 0px 10px;
+	border-bottom: 1px solid #efefef;
+}
+
+/* ---------- HotArticle ---------- */
+
+.hotArticle {
+	margin-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 8px #dddddd;
+	-moz-box-shadow: 2px 2px 8px #dddddd;
+	box-shadow: 2px 2px 8px #dddddd;
+	overflow: hidden;
+	_zoom: 1;
+	border: 1px solid #cccccc;
+}
+
+.hotArticle dl {
+	margin-bottom: -1px;
+}
+
+.hotArticle dt {
+	height: 36px;
+	line-height: 36px;
+	padding-left: 10px;
+	color: #ff7300;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+	background-color: #fff2e2;
+}
+
+.hotArticle dd {
+	height: 32px;
+	line-height: 32px;
+	margin: 0px 10px;
+	border-bottom: 1px dotted #dddddd;
+}
+
+.hotArticle dd a {
+	color: #888888;
+}
+
+.hotArticle dd a:hover {
+	color: #ff6600;
+}
+
+/* ---------- ArticleSearch ---------- */
+
+.articleSearch {
+	margin-bottom: 10px;
+	-webkit-box-shadow: 2px 2px 8px #dddddd;
+	-moz-box-shadow: 2px 2px 8px #dddddd;
+	box-shadow: 2px 2px 8px #dddddd;
+	border: 1px solid #cccccc;
+}
+
+.articleSearch .title {
+	height: 38px;
+	line-height: 30px;
+	padding-left: 30px;
+	color: #a37955;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+	background: url(../images/article.gif) 0px 0px no-repeat;
+}
+
+.articleSearch .content {
+	padding: 10px 0px 18px 0px;
+}
+
+.articleSearch .content div {
+	width: 168px;
+	height: 28px;
+	margin: 0px auto;
+	position: relative;
+	background: url(../images/article.gif) 0px -60px no-repeat;
+}
+
+.articleSearch input {
+	width: 104px;
+	height: 18px;
+	line-height: 16px;
+	padding: 4px;
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #888888;
+	outline: none;
+	border: none;
+	background: none;
+}
+
+.articleSearch button {
+	width: 56px;
+	height: 26px;
+	line-height: 24px;
+	margin: 0px;
+	font-size: 12px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	border: none;
+	background: none;
+}
+
+/* ---------- ArticleList ---------- */
+
+.articleList .result {
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	overflow: hidden;
+	_zoom: 1;
+	border: solid 1px #e4e4e4;
+}
+
+.articleList .result ul {
+	margin-bottom: -1px;
+}
+
+.articleList .result li {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.articleList .result a {
+	line-height: 40px;
+	color: #204e7d;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.articleList .result span {
+	color: #787878;
+}
+
+.articleList .result p {
+	line-height: 30px;
+	color: #787878;
+}
+
+.articleList .result dl {
+	line-height: 30px;
+}
+
+.articleList .result dt {
+	color: #843d11;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.articleList .result dd {
+	color: #666666;
+}
+
+/* ---------- ArticleDetail ---------- */
+
+.articleDetail .main {
+	line-height: 26px;
+	padding: 20px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #e4e4e4;
+}
+
+.articleDetail .main .title {
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.articleDetail .main .info {
+	line-height: 30px;
+	margin-bottom: 10px;
+	color: #787878;
+	text-align: center;
+	border-bottom: solid 1px #f1f1f1;
+}
+
+.articleDetail .main .content {
+	overflow: hidden;
+}
+
+.articleDetail .main .content strong {
+	font-weight: bold;
+}
+
+.articleDetail .main .content em {
+	font-style: italic;
+}

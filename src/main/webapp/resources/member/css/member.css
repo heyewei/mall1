@@ -1,0 +1,510 @@
+@charset "utf-8";
+
+/*
+ * Copyright 2005-2017 shopxx.net. All rights reserved.
+ * Support: http://www.shopxx.net
+ * License: http://www.shopxx.net/license
+ * 
+ * Style - Member
+ * Version: 5.0
+ */
+
+/* ---------- Member ---------- */
+
+.member .info {
+	margin-bottom: 10px;
+}
+
+.member .info .top {
+	height: 10px;
+	overflow: hidden;
+	background: url(../images/member.gif) 0px 0px no-repeat;
+}
+
+.member .info .content {
+	border-left: 1px solid #d4d4d4;
+	border-right: 2px solid #f0f0f0;
+}
+
+.member .info .content p {
+	line-height: 26px;
+	padding-left: 10px;
+	border-right: 1px solid #d4d4d4;
+}
+
+.member .info .bottom {
+	height: 20px;
+	overflow: hidden;
+	background: url(../images/member.gif) 0px -30px no-repeat;
+}
+
+.member .menu {
+	margin-bottom: 10px;
+}
+
+.member .menu .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 12px;
+	font-weight: bold;
+	background: url(../images/member.gif) 0px 0px no-repeat;
+}
+
+.member .menu .content {
+	border-left: 1px solid #d4d4d4;
+	border-right: 2px solid #f0f0f0;
+}
+
+.member .menu dl {
+	line-height: 30px;
+	padding-left: 10px;
+	border-right: 1px solid #d4d4d4;
+	background: url(../images/member.gif) right -150px no-repeat;
+}
+
+.member .menu dt {
+	padding-top: 4px;
+	color: #999999;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+
+.member .menu dd .current {
+	font-weight: bold;
+}
+
+.member .menu .bottom {
+	height: 30px;
+	background: url(../images/member.gif) 0px -30px no-repeat;
+}
+
+.member div.list {
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e4e4e4;
+}
+
+.member div.list .bar {
+	height: 30px;
+	padding: 6px 0px 5px 0px;
+	border-top: 1px solid #e4e4e4;
+}
+
+.member div.list .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 14px;
+	font-weight: bold;
+	background: url(../images/member.gif) 0px -60px no-repeat;
+}
+
+.member div.list .title span {
+	color: #999999;
+}
+
+.member div.list .thumbnail {
+	width: 60px;
+	height: 60px;
+}
+
+.member div.list p {
+	padding: 10px 0px;
+	color: #999999;
+	text-align: center;
+}
+
+.member table.list {
+	width: 100%;
+}
+
+.member table.list th {
+	height: 30px;
+	padding: 0px 4px;
+	color: #888888;
+	font-weight: normal;
+	text-align: left;
+	white-space: nowrap;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+	background: url(../images/member.gif) 0px -120px repeat-x;
+}
+
+.member table.list td {
+	line-height: 28px;
+	padding: 6px 6px 6px 0px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.member table.list .last td {
+	border-bottom: none;
+}
+
+.member div.input {
+	padding: 0px 10px 10px 10px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e4e4e4;
+}
+
+.member div.input .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 14px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #e4e4e4;
+	background: url(../images/member.gif) 0px -60px no-repeat;
+}
+
+.member table.input {
+	width: 100%;
+}
+
+.member table.input th {
+	width: 100px;
+	line-height: 30px;
+	padding: 4px 10px 4px 0px;
+	font-weight: normal;
+	text-align: right;
+	color: #888888;
+	white-space: nowrap;
+}
+
+.member table.input td {
+	line-height: 30px;
+	padding: 4px;
+}
+
+.member .index .top {
+	width: 988px;
+	padding: 10px 0px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	border: 1px solid #f0f0f0;
+	background-color: #fcfcfc;
+}
+
+.member .index .top div {
+	width: 1000px;
+}
+
+.member .index .top ul {
+	width: 454px;
+	float: left;
+	padding: 0px 20px;
+	border-right: 1px solid #f0f0f0;
+}
+
+.member .index .top li {
+	line-height: 26px;
+	color: #999999;
+}
+
+.member .index .top strong {
+	color: #cc0000;
+	font-weight: bold;
+}
+
+.member .index .top em {
+	color: #ff6600;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.member .index .top a {
+	margin: 0px 10px;
+}
+
+.member .order .dialog {
+	width: 600px;
+	height: 280px;
+	line-height: 28px;
+	padding: 0px 10px;
+	margin-left: -316px;
+	display: none;
+	position: fixed;
+	_position: absolute;
+	top: 25%;
+	_top: expression(documentElement.scrollTop + Math.round(documentElement.offsetHeight * 0.25));
+	left: 50%;
+	z-index: 100;
+	color: #888888;
+	border: solid 6px #ededed;
+	background-color: #ffffff;
+}
+
+.member .order .dialog .close {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	background: url(../images/member.gif) 0px -90px no-repeat;
+}
+
+.member .order .dialog .close:hover {
+	background-position: -30px -90px;
+}
+
+.member .order .dialog ul {
+	height: 30px;
+	line-height: 30px;
+	clear: both;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.member .order .dialog li {
+	width: 150px;
+	float: left;
+}
+
+.member .order .dialog .transitSteps {
+	height: 240px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.member .order .dialog .transitSteps table {
+	width: 100%;
+}
+
+.member .order .dialog .transitSteps th {
+	width: 150px;
+	color: #aaaaaa;
+	font-weight: normal;
+	text-align: left;
+}
+
+.member .order .top {
+	height: 100px;
+	padding: 2px 20px;
+	margin-bottom: 10px;
+	border: 1px solid #eed97c;
+	background-color: #fffceb;
+}
+
+.member .order .top span {
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	float: left;
+	font-size: 14px;
+}
+
+.member .order .top strong {
+	color: #cc0000;
+	font-weight: bold;
+}
+
+.member .order .top .action {
+	float: right;
+	padding: 10px 0px;
+}
+
+.member .order .top .tips {
+	height: 49px;
+	line-height: 49px;
+	clear: both;
+	color: #888888;
+	border-top: 1px dotted #eed97c;
+}
+
+.member .order .top .tips em {
+	color: #ff9900;
+	font-weight: normal;
+}
+
+.member .order .info {
+	width: 100%;
+	line-height: 36px;
+	margin-bottom: 10px;
+	border: 1px solid #e9e9e9;
+}
+
+.member .order .info th {
+	width: 120px;
+	padding-right: 10px;
+	color: #222222;
+	font-weight: normal;
+	text-align: right;
+}
+
+.member .order .orderItem {
+	width: 100%;
+	line-height: 40px;
+	border: 1px solid #e9e9e9;
+}
+
+.member .order .orderItem th {
+	padding-left: 10px;
+	font-weight: normal;
+	text-align: left;
+	background-color: #f6f6f6;
+}
+
+.member .order .orderItem td {
+	padding-left: 10px;
+}
+
+.member .message {
+	padding: 0px 10px 10px 10px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e9e9e9;
+}
+
+.member .message .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 14px;
+	margin-bottom: 6px;
+	font-weight: bold;
+	border-bottom: 1px solid #e9e9e9;
+	background: url(../images/member.gif) 0px -60px no-repeat;
+}
+
+.member .message dl {
+	max-height: 600px;
+	_height: expression(document.body.clientWidth >= 600 ? "600px": "auto");
+	padding: 0px 10px;
+	overflow: auto;
+	position: relative;
+}
+
+.member .message dt strong {
+	line-height: 36px;
+	margin-right: 10px;
+	color: #0066cc;
+}
+
+.member .message dt span {
+	line-height: 36px;
+	color: #bbbbbb;
+}
+
+.member .message dd {
+	padding: 10px 0px;
+	color: #666666;
+	overflow: hidden;
+	*zoom: 1;
+	word-wrap: break-word;
+	word-break: normal;
+}
+
+.member .message dd span {
+	line-height: 26px;
+	float: right;
+	clear: both;
+	padding: 0px 10px;
+	color: #bbbbbb;
+}
+
+.member .message dd .left {
+	float: left;
+	position: relative;
+	border: 1px solid #d8e1ea;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 1px 2px #e0e0e0;
+	-moz-box-shadow: 0px 1px 2px #e0e0e0;
+	box-shadow: 0px 1px 2px #e0e0e0;
+	background-color: #f8fdff;
+	background-image: -webkit-gradient(linear, center bottom, center top, from(#ecf9ff), to(#f8fdff));
+	background-image: -moz-linear-gradient(center bottom, #ecf9ff, #f8fdff);
+	background-image: -o-linear-gradient(center bottom, #ecf9ff, #f8fdff);
+	background-image: linear-gradient(center bottom, #ecf9ff, #f8fdff);
+}
+
+.member .message dd .left .arrow {
+	width: 14px;
+	height: 8px;
+	position: absolute;
+	left: 20px;
+	top: -8px;
+	background: url(../images/message.gif) 0px 0px no-repeat;
+}
+
+.member .message dd .right {
+	float: right;
+	position: relative;
+	border: 1px solid #e0e0e0;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 1px 2px #e0e0e0;
+	-moz-box-shadow: 0px 1px 2px #e0e0e0;
+	box-shadow: 0px 1px 2px #e0e0e0;
+	background-color: #fcfcfc;
+	background-image: -webkit-gradient(linear, center bottom, center top, from(#fafafa), to(#ffffff));
+	background-image: -moz-linear-gradient(center bottom, #fafafa, #ffffff);
+	background-image: -o-linear-gradient(center bottom, #fafafa, #ffffff);
+	background-image: linear-gradient(center bottom, #fafafa, #ffffff);
+}
+
+.member .message dd .right .arrow {
+	width: 14px;
+	height: 8px;
+	position: absolute;
+	right: 20px;
+	bottom: -8px;
+	_bottom: -14px;
+	background: url(../images/message.gif) -30px 0px no-repeat;
+}
+
+.member .message dd p {
+	line-height: 24px;
+	min-width: 300px;
+	max-width: 600px;
+	padding: 6px;
+	color: #888888;
+}
+
+.member .deposit .paymentPlugin {
+	padding: 10px;
+	border: solid 4px #e4e4e4;
+}
+
+.member .deposit .paymentPlugin div {
+	float: left;
+	margin: 4px 14px;
+}
+
+.member .deposit .paymentPlugin input {
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 6px;
+	margin-top: 9px;
+}
+
+.member .deposit .paymentPlugin em {
+	width: 100px;
+	height: 30px;
+	display: block;
+	float: left;
+	padding: 2px 8px;
+	color: #666666;
+	font-style: normal;
+	overflow: hidden;
+	cursor: pointer;
+	border: solid 1px #dddddd;
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.member .deposit .paymentPlugin em:hover {
+	border: solid 1px #ffaa33;
+}
