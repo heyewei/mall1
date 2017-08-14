@@ -4187,22 +4187,22 @@ CREATE TABLE `Navigation` (
 -- ----------------------------
 -- Records of Navigation
 -- ----------------------------
-INSERT INTO `Navigation` VALUES ('1', '2017-08-11 00:58:27', '2017-08-11 00:58:27', '0', '1', '\0', '会员中心', '0', '/shopxxb2c/member/index');
-INSERT INTO `Navigation` VALUES ('2', '2017-08-11 00:58:28', '2017-08-11 00:58:28', '0', '2', '\0', '帮助中心', '0', '/shopxxb2c/article/list/3');
-INSERT INTO `Navigation` VALUES ('3', '2017-08-11 00:58:29', '2017-08-11 00:58:29', '0', '3', '\0', '首页', '1', '/shopxxb2c/');
-INSERT INTO `Navigation` VALUES ('4', '2017-08-11 00:58:30', '2017-08-11 00:58:30', '0', '4', '\0', '手机数码', '1', '/shopxxb2c/product/list/1');
-INSERT INTO `Navigation` VALUES ('5', '2017-08-11 00:58:31', '2017-08-11 00:58:31', '0', '5', '\0', '电脑办公', '1', '/shopxxb2c/product/list/2');
-INSERT INTO `Navigation` VALUES ('6', '2017-08-11 00:58:32', '2017-08-11 00:58:32', '0', '6', '\0', '家用电器', '1', '/shopxxb2c/product/list/3');
-INSERT INTO `Navigation` VALUES ('7', '2017-08-11 00:58:33', '2017-08-11 00:58:33', '0', '7', '\0', '服装鞋靴', '1', '/shopxxb2c/product/list/4');
-INSERT INTO `Navigation` VALUES ('8', '2017-08-11 00:58:34', '2017-08-11 00:58:34', '0', '8', '\0', '化妆护理', '1', '/shopxxb2c/product/list/5');
-INSERT INTO `Navigation` VALUES ('9', '2017-08-11 00:58:35', '2017-08-11 00:58:35', '0', '9', '\0', '积分商城', '1', '/shopxxb2c/product/list/241');
+INSERT INTO `Navigation` VALUES ('1', '2017-08-11 00:58:27', '2017-08-11 00:58:27', '0', '1', '\0', '会员中心', '0', '/globalilife/member/index');
+INSERT INTO `Navigation` VALUES ('2', '2017-08-11 00:58:28', '2017-08-11 00:58:28', '0', '2', '\0', '帮助中心', '0', '/globalilife/article/list/3');
+INSERT INTO `Navigation` VALUES ('3', '2017-08-11 00:58:29', '2017-08-11 00:58:29', '0', '3', '\0', '首页', '1', '/globalilife/');
+INSERT INTO `Navigation` VALUES ('4', '2017-08-11 00:58:30', '2017-08-11 00:58:30', '0', '4', '\0', '手机数码', '1', '/globalilife/product/list/1');
+INSERT INTO `Navigation` VALUES ('5', '2017-08-11 00:58:31', '2017-08-11 00:58:31', '0', '5', '\0', '电脑办公', '1', '/globalilife/product/list/2');
+INSERT INTO `Navigation` VALUES ('6', '2017-08-11 00:58:32', '2017-08-11 00:58:32', '0', '6', '\0', '家用电器', '1', '/globalilife/product/list/3');
+INSERT INTO `Navigation` VALUES ('7', '2017-08-11 00:58:33', '2017-08-11 00:58:33', '0', '7', '\0', '服装鞋靴', '1', '/globalilife/product/list/4');
+INSERT INTO `Navigation` VALUES ('8', '2017-08-11 00:58:34', '2017-08-11 00:58:34', '0', '8', '\0', '化妆护理', '1', '/globalilife/product/list/5');
+INSERT INTO `Navigation` VALUES ('9', '2017-08-11 00:58:35', '2017-08-11 00:58:35', '0', '9', '\0', '积分商城', '1', '/globalilife/product/list/241');
 INSERT INTO `Navigation` VALUES ('10', '2017-08-11 00:58:36', '2017-08-11 00:58:36', '0', '10', '\0', '关于我们', '2', '#');
 INSERT INTO `Navigation` VALUES ('11', '2017-08-11 00:58:37', '2017-08-11 00:58:37', '0', '11', '\0', '联系我们', '2', '#');
 INSERT INTO `Navigation` VALUES ('12', '2017-08-11 00:58:38', '2017-08-11 00:58:38', '0', '12', '\0', '诚聘英才', '2', '#');
 INSERT INTO `Navigation` VALUES ('13', '2017-08-11 00:58:39', '2017-08-11 00:58:39', '0', '13', '\0', '隐私政策', '2', '#');
 INSERT INTO `Navigation` VALUES ('14', '2017-08-11 00:58:40', '2017-08-11 00:58:40', '0', '14', '\0', '法律声明', '2', '#');
 INSERT INTO `Navigation` VALUES ('15', '2017-08-11 00:58:41', '2017-08-11 00:58:41', '0', '15', '\0', '客户服务', '2', '#');
-INSERT INTO `Navigation` VALUES ('16', '2017-08-11 00:58:42', '2017-08-11 00:58:42', '0', '16', '\0', '友情链接', '2', '/shopxxb2c/friendlink');
+INSERT INTO `Navigation` VALUES ('16', '2017-08-11 00:58:42', '2017-08-11 00:58:42', '0', '16', '\0', '友情链接', '2', '/globalilife/friendlink');
 
 -- ----------------------------
 -- Table structure for OrderItem
